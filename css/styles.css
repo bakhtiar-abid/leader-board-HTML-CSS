@@ -35,7 +35,6 @@ Navigation Items and Logo
 ------------------------------ */
 
 .nav-bar {
-   width: 1440px;
    height: 94px;
    background-color: #562eff;
 }
@@ -50,13 +49,13 @@ Navigation Items and Logo
 
 .logo-item {
    display: flex;
-   margin-left: 3%;
+   margin-left: 8%;
 }
 
 .logo-item img {
    width: 40.42px;
    height: 51px;
-   margin-right: 16px;
+   margin-right: 20px;
 }
 
 .comp-name {
@@ -68,7 +67,7 @@ Navigation Items and Logo
 .nav-item {
    display: flex;
    align-items: center;
-   margin-right: 5%;
+   margin-right: 9%;
 }
 
 .nav-item a {
