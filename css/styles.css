@@ -3,9 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 /* common styles or utilities */
+
 body {
    font-family: "Poppins", sans-serif;
    background-color: #f3f1ff;
+   margin: 0;
 }
 
 main {
@@ -26,6 +28,58 @@ main {
 hr {
    border: 1px solid #d1d1d1;
    margin-bottom: 27px;
+}
+
+/* -------------------------- 
+Navigation Items and Logo
+------------------------------ */
+
+.nav-bar {
+   width: 1440px;
+   height: 94px;
+   background-color: #562eff;
+}
+
+.nav-items {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 26px;
+   padding-bottom: 17px;
+}
+
+.logo-item {
+   display: flex;
+   margin-left: 3%;
+}
+
+.logo-item img {
+   width: 40.42px;
+   height: 51px;
+   margin-right: 16px;
+}
+
+.comp-name {
+   color: #ffffff;
+   width: 54px;
+   height: 36px;
+}
+
+.nav-item {
+   display: flex;
+   align-items: center;
+   margin-right: 5%;
+}
+
+.nav-item a {
+   text-decoration: none;
+   color: #ffffff;
+   margin: 36px;
+}
+
+.nav-item-allign img {
+   width: 51px;
+   height: 51px;
 }
 
 /* top-players style */
@@ -150,9 +204,9 @@ courses styles
    color: #ff4a60;
 }
 
-/* ----------------------- 
-Media Queries 
----------------------------*/
+/* -----------------------------------
+Media Queries for responsive website
+--------------------------------------*/
 
 /* MObile Devices */
 
